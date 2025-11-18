@@ -8,26 +8,42 @@
     <meta name="author" content="Your Name" />
     <meta name="keywords" content="HTML, CSS, JavaScript" />
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
-      <h1>Welcome to My Website</h1>
       <nav>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-        <a href="#pricing">Pricing</a>
+        <div class="logo">Nightwatch Practice</div>
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Pricing</a></li>
+        </ul>
       </nav>
-      <div class="container">
-        <section id="hero">
-          <h1>Don't be afraid of the dark</h1>
-        </section>
-      </div>
     </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-text">
+          <h1>Don't be afraid of the dark</h1>
+          <p>
+            Monitor your apps, APIs, and infrastructure with real-time alerts
+            and detailed logs.
+          </p>
+          <div class="hero-buttons">
+            <a href="#" class="btn primary">Start monitoring</a>
+            <a href="#" class="btn secondary">Contact sales</a>
+          </div>
+        </div>
+        <div class="hero-media">
+          <div class="fake-dashboard">Dashboard preview</div>
+        </div>
+      </section>
+    </main>
+
     <footer>
-      <p>&copy; 2023 Your Name</p>
+      <p>© 2023 Your Name</p>
     </footer>
-    <script src="script.js"></script>
   </body>
 </html>
